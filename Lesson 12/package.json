@@ -1,0 +1,22 @@
+{
+  "name": "lesson-12",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha --reporter mochawesome"
+  },
+  "author": "Alexandra Gusarova",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^1.4.0",
+    "jsonschema": "^1.4.1",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3"
+  },
+  "dependencies": {
+    "chai": "^4.3.7"
+  }
+}
+
