@@ -26,6 +26,6 @@ describe('Check header features', async () => {
     await searchInput.setValue('Hooks');
     firstSearchOutput = await $('#docsearch-item-0 span.DocSearch-Hit-title');
     await firstSearchOutput.waitForEnabled();
-    expect(await firstSearchOutput.getText()).to.equal('Hooks');
+    expect(await firstSearchOutput.getText()).to.equal('Hooks')
   });
 });
