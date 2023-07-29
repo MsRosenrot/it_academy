@@ -8,7 +8,7 @@ describe('Check that user is able to navigate to Get started page', async () => 
     getStartedButton = await $('div.buttons_pzbO a:first-child');
   });
 
-  it('Check that user is able to change color theme', async () => {
+  it('Check that Get Started page header is correct', async () => {
     await getStartedButton.waitForEnabled();
     await getStartedButton.click();
     await $('h1').waitForDisplayed();
