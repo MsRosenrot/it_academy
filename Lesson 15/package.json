@@ -1,0 +1,22 @@
+{
+  "name": "my-new-project",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.12.3",
+    "@wdio/cli": "^8.13.14",
+    "@wdio/local-runner": "^8.13.13",
+    "@wdio/mocha-framework": "^8.13.13",
+    "@wdio/spec-reporter": "^8.12.2",
+    "allure-commandline": "^2.23.1",
+    "chai": "^4.3.7",
+    "chromedriver": "^115.0.0",
+    "eslint": "^8.46.0",
+    "eslint-config-google": "^0.14.0",
+    "wdio-chromedriver-service": "^8.1.1"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js",
+    "allure": "npx allure generate  reports/allure-results -o reports/allure-report",
+    "lint": "npx eslint --fix ./test"
+  }
+}
