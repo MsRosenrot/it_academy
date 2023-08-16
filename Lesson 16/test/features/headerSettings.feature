@@ -12,11 +12,11 @@ Feature: User is able to set color theme and select all of Playwrite programming
     Then I expect elements of list ul.dropdown__menu a to contain element with inner text "<Text>"
 
     Examples:
-    |Text    |Scenario
-    |.NET    |1
-    |Node.js |2
-    |Python  |3
-    |Java    |4
+    |Text    |
+    |.NET    |
+    |Node.js |
+    |Python  |
+    |Java    |
 
 
 

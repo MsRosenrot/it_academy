@@ -9,7 +9,7 @@ Scenario Outline:
     Then I expect h1 element text to equal <Result>
 
     Examples:
-    | Query       | Result        | Scenario
-    | Annotations | Annotations   | 1
-    | Emulation   | Emulation     | 2
-    | Tests       | Writing tests | 3
+    | Query       | Result        | 
+    | Annotations | Annotations   | 
+    | Emulation   | Emulation     | 
+    | Tests       | Writing tests | 
