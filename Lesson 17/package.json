@@ -1,0 +1,16 @@
+{
+  "name": "cypress_hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "cy": "npx cypress run --reporter mochawesome"
+  },
+  "author": "Alexandra Gusarova",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.17.4",
+    "mochawesome": "^7.1.3"
+  }
+}
